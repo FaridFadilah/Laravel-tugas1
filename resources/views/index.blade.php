@@ -88,14 +88,16 @@
     ];
     $filter = [
       "active" => true,
-      "role" => $role
+      "role" => "admin"
         ];
   @endphp
   <div class="container">
     <div class="">
       <h3>Pilih filter</h1>
       <form action="{{ route('/') }}">
-
+        <select class="">
+          <option value=""></option>
+        </select>
       </form>
     </div>
     <div class="d-flex gap-4 flex-wrap py-5">
